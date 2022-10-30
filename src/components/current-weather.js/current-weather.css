@@ -1,0 +1,85 @@
+.weather {
+  width: 300px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  color: #fff;
+  background-color: #333;
+  margin: 60px auto 0 auto;
+  padding: 0 20px 20px 20px;
+}
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  /* margin:0 */
+  letter-spacing: 1px;
+}
+.weather-description {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1;
+  margin: 0;
+}
+.weather-icon {
+  width: 100px;
+}
+
+.temperature {
+  font-weight: 600;
+  font-size: 70px;
+  width: auto;
+  letter-spacing: -5px;
+  margin: 10px 0;
+}
+.details {
+  width: 100%;
+  padding-left: 20px;
+  justify-content: space-between;
+}
+.parameter-row {
+  display: flex;
+  justify-content: space-between;
+}
+.parameter-label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.parameter-value {
+  text-align: right;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.country {
+  margin-top: 20px;
+  font-size: small;
+  margin-left: 5px;
+}
+.first {
+  display: flex;
+}
+
+.locate {
+  margin-top: 1px;
+  font-size: small;
+}
+.latitude {
+  display: flex;
+  gap: 20px;
+  font-weight: 100;
+}
+.longitude {
+  display: flex;
+  gap: 20px;
+}
